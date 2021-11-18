@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>David Vondrovic - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />		
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!-- <span class="icon"></span> -->
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>👋 Hi there, I'm David</h1>
+								<p>And I like turning data into information. Below are a couple things about me and what I've made</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">About me</a></li>
+								<li><a href="#work">Portfolio</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About Me section -->
+							<article id="intro">
+								<h2 class="major">About me</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>I believe in the future of the information age, and data being its building blocks.</p>
+								<p>What I've created are just a couple things I've been wondering about and consider relevant not only for me, but also for other people.</p>
+								<p>Everything can be found in my <a href="#work">Portfolio</a>.</p>
+								<p>Happy to hear your feedback on <a href="https://www.linkedin.com/in/david-vondrovic/" target="_blank">LinkedIn</a>!</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Portfolio</h2>
+								
+								<!-- Data Discovery project -->
+								<h3 class="major">👓 Data Discovery - MS SQL Server</h3>
+
+								<span class="image main"><img src="images/data_discovery_project.png" alt="" /></span>
+								<p>Wondering about the current and past actual data about the ongoing global covid pandemic, I went ahead and pulled a data set about covid from <a href="https://ourworldindata.org/covid-deaths">here</a> and decided to create some views which people might find useful for further research.</p>
+								
+								<ul class="actions">
+									
+									<li>
+										<input type="submit" value="Link to project" class="primary" onClick="sqlDiscoveryLink()"/> 
+										<script>
+											function sqlDiscoveryLink() {
+											window.open(
+												'https://github.com/sindat/Data-Insights/blob/master/covid-global-insights/sql_data_discovery.sql',
+												'_blank' // <- This is what makes it open in a new window.
+												);
+											}
+										</script>
+									</li>
+									
+								</ul>
+								
+
+								<!-- Data Cleaning  project -->
+								<h3 class="major">🔮 Data Cleaning - MS SQL Server</h3>
+
+								<span class="image main"><img src="images/data_cleaning_project.png" alt="" /></span>
+								
+								<p>I've done additional data cleaning for the global covid insights project for easier creation of insights and visualizations.</p>
+
+								<ul class="actions">
+									
+									<li>
+										<input type="submit" value="Link to project" class="primary" onClick="sql_cleaning_link()"/> 
+										<script>
+											function sql_cleaning_link() {
+											window.open(
+												'https://github.com/sindat/Data-Insights/blob/master/covid-global-insights/sql_data_cleaning.sql',
+												'_blank' // <- This is what makes it open in a new window.
+												);
+											}
+										</script>
+									</li>
+									
+								</ul>
+
+
+								<!-- Visualization project -->
+								<h3 class="major">🖌 Visualizations - Tableau</h3>
+
+								<span class="image main"><img src="images/data_visualization_project.jpg" alt="" /></span>
+								
+								<p>Tableau has been a great tool to visualize insights drawn from the global covid dataset!</p>
+
+								<ul class="actions">
+									
+									<li>
+										<input type="submit" value="Link to project" class="primary" onClick="tableau_projects_link()"/> 
+										<script>
+											function tableau_projects_link() {
+											window.open(
+												'https://public.tableau.com/app/profile/david.vondrovic#!/?newProfile=&activeTab=0',
+												'_blank' // <- This is what makes it open in a new window.
+												);
+											}
+										</script>
+									</li>
+									
+								</ul>
+
+
+
+								<!-- Correlations project -->
+								<h3 class="major">📡 Correlations - Python & Jypyter Notebook</h3>
+
+								<span class="image main"><img src="images/correlation_project.jfif" alt="" /></span>
+								
+								<p>Curious about what influences how much money movies are able to make, I've used Jupyter and a couple Python libraries to discover and visualize correlations.</p>
+
+								<ul class="actions">
+									
+									<li>
+										<input type="submit" value="Link to project" class="primary" onClick="python_correlations_link()"/> 
+										<script>
+											function python_correlations_link() {
+											window.open(
+												'https://github.com/sindat/Data-Insights/blob/master/movies-insights/movies_research.ipynb',
+												'_blank' // <- This is what makes it open in a new window.
+												);
+											}
+										</script>
+									</li>
+									
+								</ul>
+
+							</article>
+
+						
+
+						
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/david-vondrovic/" class="icon brands fa-linkedin" target="_blank"><span class="label"></span></a></li>
+							<li><a href="https://github.com/sindat" class="icon brands fa-github" target="_blank"><span class="label"></span></a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
